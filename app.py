@@ -24,7 +24,7 @@ BloodPressure = st.number_input("BloodPressure", min_value=0, max_value=122, val
 SkinThickness = st.number_input("SkinThickness", min_value=0.0, max_value=99.0, value=1.0, step=1.0)
 Insulin = st.number_input("Insulin", min_value=0, max_value=846, value=1, step=1)
 BMI = st.number_input("BMI", min_value=0.0, max_value=67.1, value=1.25, step=1.0)
-DiabetesPedigreeFunction = st.number_input("DiabetesPedigreeFunction", min_value=0.0, max_value=2.42, value=7.25, step=0.1)
+DiabetesPedigreeFunction = st.number_input("DiabetesPedigreeFunction", min_value=0.0, max_value=2.42, value=1.0, step=0.1)
 
 
 # Create the input dictionary for prediction
