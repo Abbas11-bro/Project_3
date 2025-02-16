@@ -23,7 +23,7 @@ Glucose = st.number_input("Glucose", min_value=0, max_value=199, value=1)
 BloodPressure = st.number_input("BloodPressure", min_value=0, max_value=122, value=0)
 SkinThickness = st.number_input("SkinThickness", min_value=0.0, max_value=99.0, value=1.0, step=1.0)
 Insulin = st.number_input("Insulin", min_value=0, max_value=846, value=1, step=1)
-BMI = st.number_input("BMI", min_value=0.0, max_value=67.1, value=7.25, step=0.5)
+BMI = st.number_input("BMI", min_value=0.0, max_value=67.1, value=1.25, step=1.0)
 DiabetesPedigreeFunction = st.number_input("DiabetesPedigreeFunction", min_value=0.0, max_value=2.42, value=7.25, step=0.1)
 
 
